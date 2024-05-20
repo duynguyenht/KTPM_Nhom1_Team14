@@ -11,7 +11,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     /**
-     * @var HomeService
+     ** @var HomeService
      */
     private $homeService;
 
