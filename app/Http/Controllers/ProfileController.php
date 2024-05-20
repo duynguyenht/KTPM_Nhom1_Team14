@@ -8,7 +8,7 @@ use App\Services\ProfileUserService;
 
 class ProfileController extends Controller
 {
-    /****
+    /**
      * @var ProfileUserService
      */
     private $profileUserService;
