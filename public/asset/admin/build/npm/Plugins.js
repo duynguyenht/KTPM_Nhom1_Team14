@@ -430,18 +430,7 @@ const Plugins = [
     from: 'node_modules/codemirror/mode/',
     to: 'plugins/codemirror/mode'
   },
-  {
-    from: 'node_modules/codemirror/theme/',
-    to: 'plugins/codemirror/theme'
-  },
-  // dropzonejs
-  {
-    from: 'node_modules/dropzone/dist/',
-    to: 'plugins/dropzone'
-  },
-  // uPlot
-  {
-    from: 'node_modules/uplot/dist/',
+
     to: 'plugins/uplot'
   }
 ]
