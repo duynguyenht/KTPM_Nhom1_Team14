@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class SearchController extends Controller
 {
-    /**
+    /***
      * @var SearchService
      */
     private $searchService;
