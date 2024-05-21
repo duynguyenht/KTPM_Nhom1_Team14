@@ -8,7 +8,7 @@ use App\Services\ProductDetailService;
 
 class ProductDetailController extends Controller
 {
-    /**
+    /***
      * @var ProductDetailService
      */
     private $productDetailService;
