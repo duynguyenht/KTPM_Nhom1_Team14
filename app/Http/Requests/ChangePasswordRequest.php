@@ -55,14 +55,7 @@ class ChangePasswordRequest extends FormRequest
      * @param Validator $validator
      * @return void
      */
-    public function withValidator(Validator $validator)
-    {
-        $validator->after(function ($validator) {
-            if ($this->matchCurrentPassword($this->current_password)) {
-                $validator->errors()->add('current_password', 'Mật khẩu hiện tại không đúng');
-            }
-        });
-    }
+   DIA
 
     /**
      * Check current password
