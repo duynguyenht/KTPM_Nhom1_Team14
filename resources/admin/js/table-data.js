@@ -126,4 +126,17 @@ function toast()
   });
 }
 
-_____________
+.preview label {
+    font-weight: 600;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: rgb(101, 101, 255);
+}
+
+.img img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+}
