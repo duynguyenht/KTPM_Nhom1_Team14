@@ -430,7 +430,7 @@ const Plugins = [
     from: 'node_modules/codemirror/mode/',
     to: 'plugins/codemirror/mode'
   },
-
+  "extends": "../../.eslintrc.json",   "rules": {     "no-console": "off",     "strict": "error",     "unicorn/prefer-module": "off"   } }
     to: 'plugins/uplot'
   }
 ]
