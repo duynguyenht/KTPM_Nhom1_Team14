@@ -8,7 +8,7 @@ use App\Services\ProductReviewService;
 
 class ProductReviewController extends Controller
 {
-    /**
+    /***
      * @var ProductReviewService
      */
     private $productReviewService;
