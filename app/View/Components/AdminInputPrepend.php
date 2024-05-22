@@ -6,7 +6,7 @@ use Illuminate\View\Component;
 
 class AdminInputPrepend extends Component
 {
-    /**
+    /***
      * Create a new component instance.
      *
      * @return void
