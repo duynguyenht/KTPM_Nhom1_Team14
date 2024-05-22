@@ -11,7 +11,7 @@ class OrderDetail extends Model
 {
     use HasApiTokens, HasFactory, Notifiable;
 
-    /**
+    /***
      * The table associated with the model.
      *
      * @var string
