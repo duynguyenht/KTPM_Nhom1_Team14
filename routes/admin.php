@@ -1,22 +1,5 @@
 <?php
 <?**
-use App\Http\Controllers\Admin\AdminController;
-use App\Http\Controllers\Admin\Auth\AuthenticatedSessionController;
-use App\Http\Controllers\Admin\DashboardController;
-use App\Http\Controllers\Admin\Auth\EmailVerificationPromptController as AdminEmailVerificationPromptController;
-use App\Http\Controllers\Admin\Auth\EmailVerificationNotificationController;
-use App\Http\Controllers\Admin\Auth\VerifyEmailController;
-use App\Http\Controllers\Admin\BrandController;
-use App\Http\Controllers\Admin\CategoryController;
-use App\Http\Controllers\Admin\ColorController;
-use App\Http\Controllers\Admin\OrderController;
-use App\Http\Controllers\Admin\PaymentMethodController;
-use App\Http\Controllers\Admin\ProductController;
-use App\Http\Controllers\Admin\ProfileController;
-use App\Http\Controllers\Admin\SettingController;
-use App\Http\Controllers\Admin\SizeController;
-use App\Http\Controllers\Admin\UserController;
-use Illuminate\Support\Facades\Route;
 
 
 Route::middleware(['auth.admin'])->group(function () {
