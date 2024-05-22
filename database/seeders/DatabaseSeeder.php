@@ -34,21 +34,7 @@ class DatabaseSeeder extends Seeder
                     ]
                 ],
             ],
-            [
-                'table' => 'users',
-                'data' => [
-                    [
-                        'id' => 1,
-                        'name' => 'Admin',
-                        'email' => 'admin@gmail.com',
-                        'password' => Hash::make('password'),
-                        'email_verified_at' => now(),
-                        'phone_number' => '0000000000',
-                        'active' => 1,
-                        'role_id' => 1
-                    ]
-                ]
-            ],
+   
             [
                 'table' => 'brands',
                 'data' => [
