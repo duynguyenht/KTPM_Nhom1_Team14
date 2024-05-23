@@ -37,8 +37,7 @@ class DatabaseSeeder extends Seeder
             [
                 'table' => 'users',
                 'data' => [
-                    [
-                        'id' => 1,
+                    [    'id' => 1,
                         'name' => 'Admin',
                         'email' => 'admin@gmail.com',
                         'password' => Hash::make('password'),
@@ -46,6 +45,7 @@ class DatabaseSeeder extends Seeder
                         'phone_number' => '0000000000',
                         'active' => 1,
                         'role_id' => 1
+                        
                     ]
                 ]
             ],
